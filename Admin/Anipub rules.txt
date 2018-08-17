@@ -1,0 +1,57 @@
+Модератор
+/about <dialog/>
+/cmdlist <dialog/>
+/warn <set/get/give> <id/ник/all> <количество/> <причина/>
+/kick <id/ник/all> <причина/>
+/mute <id/ник/all> <время(число[с/м/ч/д/н/г])> <причина/>
+/unmute <id/ник/all> <причина/>
+/jail <id/ник/all> <время(число[с/м/ч/д/н/г])> <причина/>
+/unjail <id/ник/all> <причина/>
+/freeze <id/ник/all> <время(число[с/м/ч/д/н/г])/> <причина/>
+/unfreeze <id/ник/all> <причина/>
+/t[ele]p[ort] to <id/ник>
+/t[ele]p[ort] here <id/ник/all>
+/t[ele]p[ort] coord <x> <y> <z> <интерьер/> <мир/>
+/int[erior] <set/get> <id/ник/all> <интерьер/>
+/world <set/get> <id/ник/all> <мир/>
+/chat <clean>
+/boom <тип(0-13)>
+/getinfo <id/ник/all> // в том числе и информация о игроках, находящихся не в сети
+/netstats <id/ник>
+/kill <id/ник/all>
+/spec[tate] <id/ник/off>
+/skin <set/get> <id/ник/all> <скин/>
+
+Администратор
+/ban <id/ник/ip> <время(число[с/м/ч/д/н/г], 0 - навсегда)/> <причина/>
+/unban <id/ник/ip>
+/health <set/get/give> <id/ник/all> <количество/>
+/armour <set/get/give> <id/ник/all> <количество/>
+/weapon <set/get/give> <id/ник/all> <id оружия> <количество/>
+/skill <set/get/give> <id/ник/all> <id оружия/> <количество/>
+/money <set/get/give> <id/ник/all> <количество/>
+/level <set/get/give> <id/ник/all> <количество/>
+/xp <set/get/give> <id/ник/all> <количество/>
+/v[ehicle] add <id/название>
+/v[ehicle] remove <id/>
+/v[ehicle] respawn <id/all/>
+/v[ehicle] repair <id/all/>
+/v[ehicle] health <set/get/give> <id/all/> <количество/>
+/c[amera] get
+/c[amera] set <cX> <cY> <cZ> <lX> <lY> <lZ>
+/c[amera] reset
+/say <текст>
+/announce <gametext>
+/weather <id погоды>
+/premium <set/get> <id/ник> <время(ДД.ММ.ГГГГ)/>
+/godmod
+
+Системный администратор
+/priv[ilege] <set/get> <id/ник> <статус(игрок, модератор, администратор, ркон)/>
+/sys[tem] help
+/sys[tem] gmx
+/sys[tem] weather <время(в минутах, 0 выключить)>
+/sys[tem] groundhold <1/0>
+/sys[tem] time <set/real> <значение/>
+/sys[tem] lang <set/get/reload> <имя файла/>
+/sys[tem] say <текст>
